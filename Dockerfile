@@ -7,4 +7,4 @@ RUN node prerender.mjs
 FROM caddy:2-alpine
 COPY Caddyfile /etc/caddy/Caddyfile
 COPY --from=build /build/out/ /srv/
-COPY robots.txt sitemap.xml llms.txt og-image.jpg /srv/
+COPY robots.txt sitemap.xml llms.txt og-image.jpg photo-*.jpg /srv/
