@@ -7,7 +7,7 @@ import fs from "node:fs";
 const src = fs.readFileSync("index.html", "utf8");
 
 const KZ_HEAD = [
-  [/<title>[^<]*<\/title>/, "<title>Алматыдағы «Тётя Катя» ательесі – киім жөндеу, шақтау және тігу</title>"],
+  [/<title>[^<]*<\/title>/, "<title>Алматыдағы «Тётя Катя» ательесі – киім жөндеу, шақтау және тігу, үйге жақын</title>"],
   [/<meta name="description" content="[^"]*">/, '<meta name="description" content="«Тётя Катя» ательесі Алматыда, Мақатаев көшесі 137: шалбар мен джинсы қысқарту, тарылту, сыдырма ауыстыру, тапсырыспен тігу, бумен үтіктеу. Мерзімі 1–3 күн, шұғыл – кезексіз. Дс–Жм, 9:00–18:00. WhatsApp +7 707 171 00 24.">'],
   [/<meta property="og:title" content="[^"]*">/, '<meta property="og:title" content="«Тётя Катя» ательесі – Алматыда киім жөндеу және тігу">'],
   [/<meta property="og:description" content="[^"]*">/, '<meta property="og:description" content="Қысқартамыз, тарылтамыз, сыдырма ауыстырамыз, тапсырыспен тігеміз. Мақатаев 137, Дс–Жм, 9:00–18:00.">'],
