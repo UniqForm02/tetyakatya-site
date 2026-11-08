@@ -2,14 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tetyakatya.kz/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://tetyakatya.kz/"/>
     <xhtml:link rel="alternate" hreflang="kk" href="https://tetyakatya.kz/kz/"/>
   </url>
   <url>
     <loc>https://tetyakatya.kz/kz/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-08</lastmod>
     <xhtml:link rel="alternate" hreflang="ru" href="https://tetyakatya.kz/"/>
     <xhtml:link rel="alternate" hreflang="kk" href="https://tetyakatya.kz/kz/"/>
+  </url>
+  <url>
+    <loc>https://tetyakatya.kz/uslugi/podshit-dzhinsy-bryuki</loc>
+    <lastmod>2026-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://tetyakatya.kz/uslugi/zamena-molnii</loc>
+    <lastmod>2026-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://tetyakatya.kz/uslugi/ushit-odezhdu-po-figure</loc>
+    <lastmod>2026-11-08</lastmod>
+  </url>
+  <url>
+    <loc>https://tetyakatya.kz/uslugi/poshiv-na-zakaz</loc>
+    <lastmod>2026-11-08</lastmod>
   </url>
 </urlset>
