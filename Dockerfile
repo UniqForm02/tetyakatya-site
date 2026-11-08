@@ -8,3 +8,4 @@ FROM caddy:2-alpine
 COPY Caddyfile /etc/caddy/Caddyfile
 COPY --from=build /build/out/ /srv/
 COPY robots.txt sitemap.xml llms.txt og-image.jpg photo-*.jpg /srv/
+COPY uslugi/ /srv/uslugi/
